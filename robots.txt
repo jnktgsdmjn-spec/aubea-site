@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aubea.app/sitemap.xml
