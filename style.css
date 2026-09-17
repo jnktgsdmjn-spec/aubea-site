@@ -50,17 +50,17 @@ img { max-width: 100%; height: auto; display: block; }
 .wrap { max-width: 1120px; margin: 0 auto; padding-inline: var(--gutter); }
 
 /* ─── En-tête ─── */
-.site-header { padding: 22px 0; }
+.site-header { padding: 26px 0; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--navy); }
-.brand img { width: 26px; height: 26px; }
-.brand span { font-family: var(--serif); font-size: 1.45rem; font-weight: 600; letter-spacing: -0.01em; }
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: var(--navy); }
+.brand img { width: 34px; height: 34px; }
+.brand span { font-family: var(--serif); font-size: 1.85rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
 .brand span::after { content: "."; color: var(--gold); }
 .site-nav { display: flex; gap: 28px; font-size: 0.95rem; }
 .site-nav a { text-decoration: none; color: var(--ink); }
 .site-nav a:hover { color: var(--navy); text-decoration: underline; }
 .site-nav a { white-space: nowrap; }
-@media (max-width: 560px) { .site-nav { gap: 16px; font-size: 0.9rem; } .site-nav a:first-child { display: none; } }
+@media (max-width: 560px) { .site-nav { gap: 16px; font-size: 0.9rem; } .site-nav a:first-child { display: none; } .brand img { width: 28px; height: 28px; } .brand span { font-size: 1.5rem; } }
 
 /* ─── Hero ─── */
 .hero { padding: clamp(32px, 7vw, 96px) 0 clamp(40px, 7vw, 96px); }
