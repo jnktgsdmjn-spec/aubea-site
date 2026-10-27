@@ -6,7 +6,7 @@ Hébergé sur GitHub Pages, domaine géré chez Gandi.
 ## Pages
 - `index.html` — accueil
 - `mentions-legales.html`
-- `cgu.html` et `confidentialite.html` — générées depuis `src/content/aubea/legalTexts.ts` de l'app (version 1.1 du 10 septembre 2026). À régénérer à chaque nouvelle version des textes.
+- `cgu.html` et `confidentialite.html` — copie des textes de `src/content/aubea/legalTexts.ts` de l'app (version 1.3 du 26 octobre 2026). Il n'existe pas de script de génération : ces pages sont mises à jour à la main depuis `legalTexts.ts` à chaque nouvelle version des textes.
 
 ## Mettre en ligne (une seule fois)
 1. Créer le dépôt `aubea-site` sur GitHub (public), y pousser ce dossier.
